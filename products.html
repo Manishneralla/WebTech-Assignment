@@ -1,0 +1,341 @@
+<head>
+    <title>Products Available</title>
+        <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #ffffff;
+        }
+
+        #Logo{
+            padding-left: 25px;
+            height: 50px;
+            width: auto;
+            cursor: pointer;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            background-color: #d15858;
+            color: #1f2020;
+        }
+        .Nav_links{
+            list-style: none;
+
+        }
+        .Nav_links li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .Nav_links li a{
+            transition: all 0.1s ease 0s;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 1000;
+            color: #1f2020;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .Nav_links li a:hover{
+            color: #2edcff;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+        div.products{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            place-items: center;
+        }
+        div.frame{
+            border: 2px solid #1b1a1a;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: 20px;
+            transition: all 0.3s ease 0s;
+        }
+        div.frame:hover{
+            border: 2px solid #EAEAEA;
+        }
+        div.polaroid{
+            align-items: center;
+        }
+        div.polaroid img {
+            width: 250px;
+            height: 225px;
+        }
+        div.h1{
+            padding: 15px;
+            text-align: center;
+            font-size: x-small;
+        }
+        div.heading{
+            margin-left: 55px;
+            margin-top: 20px;
+        }
+        div.disclaimer{
+            padding: 50px 0;
+            text-align: center;
+            background-color: #EEEBDD;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #1b1a1a;
+        }
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 500;
+            color: #000000;
+            text-decoration: none;
+        }
+        #h1{
+            background-color: #EAEAEA;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="Nav_links">
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Location</a></li> 
+                <li><a href="signin.html">Sign In</a></li> 
+                <li><a href="signup.html">Sign Up</a></li> 
+            </ul>
+        </nav>
+        <a href="Main.html"><img src="100" id="Logo" class="Logo" alt="Mallika Stores"></a>
+    </header>
+
+    <div id="heading" class="heading">
+        <h1 style="color: #000000;">We sell:</h1>
+    </div>
+
+    <div id="products" class="products">
+        <div id="frame" class="frame">
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="3.jpg" alt="Hair Oil">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Hair Oil</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="4.jpg" alt="Vegetables">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Vegetables</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="5.jpg" alt="Milk Products">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Milk Products</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="6.jpg" alt="Sugar">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Sugar</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="7.jpg" alt="Sauces">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Sauces</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="8.jpg" alt="Rice">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Rice</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="9.jpg" alt="Bread">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Bread</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="10.jpg" alt="Notebooks">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Notebooks</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="11.jpg" alt="Milk">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Milk</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="12.jpg" alt="Curd">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Curd</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="20.jpg" alt="Spices">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Spices</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="14.jpg" alt="Pulses">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Pulses</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="15.jpg" alt="Chocolates">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Chocolates</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="16.jpg" alt="Snacks">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Snacks</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="17.jpg" alt="Eggs">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Eggs</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="18.jpg" alt="Tooth Paste">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Tooth Paste</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="19.jpg" alt="Soaps">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Soaps</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="21.jpg" alt="Cool Drinks">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Cool Drinks</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="22.jpg" alt="Wheat">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Wheat</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="frame" class="frame">    
+            <div class="polaroid" id="polaroid">
+                <div class="img" id="img">
+                    <img src="23.jpg" alt="Ice Creams">
+                </div>
+                <div id="h1" class="h1">
+                    <h1>Ice Creams</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

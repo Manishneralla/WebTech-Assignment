@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+    <title>Mallika Stores</title>
+    <link rel="icon" type="image/x-icon" href="download.png">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: #ffffff;
+        }
+        #Logo{
+            padding-left: 25px;
+            height: 50px;
+            width: auto;
+            cursor: pointer;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            background-color: #d15858;
+            color: #1f2020;
+        }
+            body {
+            background-image: url('https://hips.hearstapps.com/hmg-prod/images/groceries-shopping-royalty-free-image-1569525319.jpg?crop=0.88847xw:1xh;center,top&resize=1200:*');
+            background-size: cover;
+            background-repeat: no-repeat;
+   
+        }
+        .Nav_links{
+            list-style: none;
+
+        }
+        .Nav_links li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .Nav_links li a{
+            transition: all 0.1s ease 0s;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 1000;
+            color: #1f2020;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .Nav_links li a:hover{
+            color: #2edcff;
+        }
+        #md{
+            font-size: 50px;
+        }
+        #home{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #1f2020;
+        }
+        #home_bg{
+            width: Auto;
+            height: 665px;
+            background-image: url(".jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #explore{
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgb(231, 47, 47);
+            color: aliceblue;
+            transition: all 0.1s ease 0s;
+        }
+        #explore:hover{
+            background-color: rgb(137, 7, 7);
+            color: aliceblue;
+        }
+        #about{
+            
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 200px 0;
+            background-color: #EEEBDD;
+        }
+        #details{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 100px 0;
+            background-color: #EEEBDD;
+            font-size: large;
+        }
+        #details a{
+            color: black;
+            text-decoration: none;
+            font-weight: 800;
+        }
+        #details a:hover{
+            color: rgb(108, 160, 173);
+        }
+        #recent_work{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            padding-top: 40px;
+            background-color: #252A34;
+            color: #EAEAEA;
+        }
+        #recent_work_date{
+            color: #1a1a1a;
+        }
+        #recent_work_reviews{
+            color: #1a1a1a;
+        }
+        #allimages{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+        }
+        #allimages img{
+            width: 400px;
+            height: auto;
+        }
+        #recent_work_images{
+            border: 2px solid #1a1a1a;;
+            background-color: aliceblue;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: 20px;
+            transition: all 0.3s ease 0s;
+        }
+        #recent_work_images:hover{
+            border: 2px solid #EAEAEA;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="Nav_links">
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Location</a></li> 
+                <li><a href="signin.html">Sign In</a></li> 
+                <li><a href="signup.html">Sign Up</a></li> 
+            </ul>
+        </nav>
+        <a href="Main.html"><img src="100" id="Logo" class="Logo" alt="Mallika Stores"></a>
+    </header>
+
+    <div id="home_bg" class="home_bg">
+        <div id="home" class="home">
+            <h1 id="md" class="md">Sri Sai Mallika Stores</h1>
+        </div>
+    </div>
+
+    <div>
+        <div class="about" id="about">
+            <div id="heading" class="heading">
+                <h1>About</h1>
+            </div>
+            <br>
+            <div id="para" class="para">
+                <p>We sell the grocery items</p>
+                <p>Which are useful for daily purposes.</p>
+                <p>Our stock will be refreshed regularly.</p>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sign In</title>
+    <link rel="icon" type="image/x-icon" href="download.png">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: #ffffff;
+        }
+
+        #Logo{
+            padding-left: 25px;
+            height: 50px;
+            width: auto;
+            cursor: pointer;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            background-color: #d15858;
+        }
+        .Nav_links{
+            list-style: none;
+
+        }
+        .Nav_links li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .Nav_links li a{
+            transition: all 0.1s ease 0s;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 1000;
+            color: #1f2020;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .Nav_links li a:hover{
+            color: #2edcff;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e0e0e0;
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form {
+            width: 300px;
+            text-align: center;
+        }
+
+        .form h2 {
+            margin-bottom: 10px;
+        }
+
+        .form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="Nav_links">
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Location</a></li> 
+                <li><a href="signin.html">Sign In</a></li> 
+                <li><a href="signup.html">Sign Up</a></li> 
+            </ul>
+        </nav>
+        <a href="Main.html"><img src="100" id="Logo" class="Logo" alt="Mallika Stores"></a>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form id="login-form" class="form" action="signin.php" method="POST">
+                <h2>Sign In</h2>
+                <input type="text" name="username" placeholder="Username" style="padding: 10px;" required>
+                <input type="password" name="password" placeholder="Password" style="padding: 10px;" required>
+                <button type="submit" style="padding: 10px;">Sign In</button>
+            </form>
+        </div>
+    </div>
+</body>
